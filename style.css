@@ -1,0 +1,56 @@
+/* Font utama dan tata letak halaman agar di tengah serta menambahkan bg image */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('img/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+/* Kartu utama yang berisi gambar dan pesan, dengan border dan efek bayangan */
+.card {
+    display: flex;
+    border: 2px solid #e0e0e0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    max-width: 600px;
+    background-color: #fff;
+}
+
+/* Gambar dino */
+.card img {
+    border-radius: 10px 0 0 10px;
+    width: 50%;
+    object-fit: cover;
+}
+
+/* Bagian pesan dengan padding */
+.pesan {
+    padding: 20px;
+    width: 50%;
+}
+
+/* Style untuk judul */
+h1 {
+    color: #f47763;
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Style untuk paragraf */
+p {
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Style untuk nama pengirim */
+strong {
+    font-size: 18px;
+}
